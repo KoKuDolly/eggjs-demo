@@ -1,6 +1,6 @@
 'use strict';
 
-const { app, mock, assert } = require('egg-mock/bootstrap');
+const { app } = require('egg-mock/bootstrap');
 
 describe('test/app/controller/topics.test.js', () => {
   it('should POST /api/v2/topics/ 422', () => {

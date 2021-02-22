@@ -1,5 +1,5 @@
 'use strict';
-const { app, mock, assert } = require('egg-mock/bootstrap');
+const { app, assert } = require('egg-mock/bootstrap');
 
 describe('test/app/service/topics.test.js', () => {
   let ctx;
